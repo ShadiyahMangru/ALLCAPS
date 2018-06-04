@@ -1,6 +1,7 @@
 # ALLCAPS
-ALLCAPS is a java package for sorting Washington Capitals Skaters’ stats.
+ALLCAPS is a java package for sorting Washington Capitals Skaters’ stats (goalie stats not yet included).
 
-PlayerStats class identifies the variables of interest for each player.
+Player class includes the variables that are unlikely to change during a player's contract with the Washington Capitals.
+PlayerStats class identifies the variables of interest for each player, most of which change over the course of a season.
 CapsStats class aggregates team statistics.
 SortStats class provides a method to sort team stats by Games Played, Goals, Assists, and Points.
